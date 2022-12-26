@@ -8,11 +8,16 @@
 import Foundation
 
 extension Bundle {
-    var apiKey: String {
-        guard let file = self.path(forResource: "OpenAIInfo", ofType: "plits") else { return "" }
+    
+    // 생성한 .plist 파일 경로 불러오기
+    var OPENAI_API_KEY: String {
+        guard let file = self.path(forResource: "OpenAIInfo", ofType: "plist") else { return "" }
         
+        // .plist를 딕셔너리로 받아오기
         guard let resource = NSDictionary(contentsOfFile: file) else { return "" }
-        guard let key = resource["API_KEY"] as? String else { fatalError("OpenAIInfo에 API_KEY설정을 해주세요")}
-        return key;
+        
+        // 딕셔너리에서 값 찾기
+        guard let key = resource["API_KEY"] as? String else { fatalError("API_KEY error") }
+        return key
     }
 }

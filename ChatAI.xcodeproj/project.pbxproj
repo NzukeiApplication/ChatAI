@@ -15,6 +15,8 @@
 		2B7D4D84295A2D7300F8B11D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D4D82295A2D7300F8B11D /* LaunchScreen.storyboard */; };
 		2B7D4D8D295A2DF000F8B11D /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2B7D4D8C295A2DF000F8B11D /* OpenAISwift */; };
 		2B7D4D8F295A2EC900F8B11D /* APIcaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4D8E295A2EC900F8B11D /* APIcaller.swift */; };
+		2B7D4D91295A382D00F8B11D /* OpenAIInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B7D4D90295A382D00F8B11D /* OpenAIInfo.plist */; };
+		2B7D4D93295A392800F8B11D /* ChatAI++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D4D92295A392800F8B11D /* ChatAI++Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		2B7D4D83295A2D7300F8B11D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B7D4D85295A2D7300F8B11D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B7D4D8E295A2EC900F8B11D /* APIcaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIcaller.swift; sourceTree = "<group>"; };
+		2B7D4D90295A382D00F8B11D /* OpenAIInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OpenAIInfo.plist; sourceTree = "<group>"; };
+		2B7D4D92295A392800F8B11D /* ChatAI++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatAI++Bundle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				2B7D4D82295A2D7300F8B11D /* LaunchScreen.storyboard */,
 				2B7D4D85295A2D7300F8B11D /* Info.plist */,
 				2B7D4D8E295A2EC900F8B11D /* APIcaller.swift */,
+				2B7D4D90295A382D00F8B11D /* OpenAIInfo.plist */,
+				2B7D4D92295A392800F8B11D /* ChatAI++Bundle.swift */,
 			);
 			path = ChatAI;
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 			files = (
 				2B7D4D84295A2D7300F8B11D /* LaunchScreen.storyboard in Resources */,
 				2B7D4D81295A2D7300F8B11D /* Assets.xcassets in Resources */,
+				2B7D4D91295A382D00F8B11D /* OpenAIInfo.plist in Resources */,
 				2B7D4D7F295A2D7200F8B11D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +160,7 @@
 				2B7D4D78295A2D7200F8B11D /* AppDelegate.swift in Sources */,
 				2B7D4D7A295A2D7200F8B11D /* SceneDelegate.swift in Sources */,
 				2B7D4D8F295A2EC900F8B11D /* APIcaller.swift in Sources */,
+				2B7D4D93295A392800F8B11D /* ChatAI++Bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
